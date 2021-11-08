@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: carfast.service.seller.addcarnotifier
+spec:
+  selector:
+    matchLabels:
+      app: carfast.service.seller.addcarnotifier
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: carfast.service.seller.addcarnotifier
+    spec:
+      containers:
+        - name: service-seller-addcarnotifier
+          image: {{image}}
+          env:
+            - name: ENVIRONMENT
+              value: {{environment}}

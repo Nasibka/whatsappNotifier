@@ -1,0 +1,6 @@
+{
+    "environment": "staging",
+    "db": "mongodb+srv://user:MeDu_f9tbQqDRBU@carfast-staging.4guh6.mongodb.net/parser-kolesa?retryWrites=true&w=majority",
+    "mainServiceUrl":"https://api.stage.carfast.kz",
+    "cron":"*/5 * * * *"
+}
