@@ -1,6 +1,6 @@
 {
   "environment": "production",
-  "db": "mongodb+srv://root:OOo7bOxV1dlQ4nD8@carfast.xpd1d.mongodb.net/parser-kolesa?retryWrites=true&w=majority",
+  "db": "mongodb+srv://root::*********@@carfast.xpd1d.mongodb.net/parser-kolesa?retryWrites=true&w=majority",
   "mainServiceUrl":"https://api.carfast.kz/",
   "cron":"* * * * *"
 }
